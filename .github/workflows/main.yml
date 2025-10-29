@@ -1,0 +1,47 @@
+name: Upload License
+
+on:
+  workflow_dispatch:
+    inputs:
+      hwid:
+        description: 'Masukkan HWID pengguna'
+        required: true
+      user:
+        description: 'Masukkan nama pengguna'
+        required: true
+      days:
+        description: 'Durasi aktif (hari)'
+        default: '365'
+        required: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: pip install cryptography
+
+    - name: Buat file private.pem dari secrets
+      run: |
+        echo "${{ secrets.PRIVATE_KEY_PEM }}" > private.pem
+
+    - name: Generate License
+      run: |
+        python DaengLicenseGen.py --create --hwid "${{ github.event.inputs.hwid }}" --user "${{ github.event.inputs.user }}" --days "${{ github.event.inputs.days }}"
+
+    - name: Commit & Push hasil ke repo
+      run: |
+        git config user.name "Daeng License Bot"
+        git config user.email "actions@github.com"
+        git add licenses/
+        git commit -m "Add license for ${{ github.event.inputs.user }}"
+        git push
