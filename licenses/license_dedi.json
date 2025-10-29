@@ -4,14 +4,15 @@
         "user": "dedi",
         "expiry": "2026-10-29T14:49:03.549330"
     },
-    "signature": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApYj+LbGTdoPzPsRO2TBE
+    "signature": -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApYj+LbGTdoPzPsRO2TBE
 XdlkfRoDz8fmURbkFBSGyAYD7db54HGbszBU05H+KdwZ1l5HzvB9aR98q/K7tvh0
 gtr7oWB4FvnwEEYBcrBp1UTntciyTNjBZGQBfjIAhFmEdC0DX6rYjXo57DUZJeq8
 NGqBqznm2DPhNf9/S2vJjNcNKkKfYmsJc+XEYFIiWN6DgOkxGKDITlqitMHZvwuM
 iF4aiaHKMgRK8lg1ls4NEn+ZKxH8+8peDYVXo0Dnej3zUSL61/mxRbyAtT68PhAi
 54uhsTdflZYpZuJIhmL0yvUpr8+voHchP6a3yzy2fIokDndrZkk6T3sCYQgyvgx/
-GwIDAQAB"
-}
+GwIDAQAB
+-----END PUBLIC KEY-----
 
 
 
