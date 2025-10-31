@@ -11,7 +11,7 @@ on:
         required: true
       days:
         description: 'Durasi aktif (hari)'
-        default: 365
+        default: true
         required: false
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
         echo "${{ secrets.PRIVATE_KEY_PEM }}" > private.pem
 
     - name: Generate License
-      run: 
+    run:
         python DaengLicenseGen.py --create --hwid "${{ github.event.inputs.hwid }}" --user "${{ github.event.inputs.user }}" --days "${{ github.event.inputs.days }}"
 
     - name: Commit & Push hasil ke repo
