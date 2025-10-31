@@ -5,14 +5,14 @@ on:
     inputs:
       hwid:
         description: 'Masukkan HWID pengguna'
-        required: 'true'
+        required: '18C04D3EFECC'
       user:
         description: 'Masukkan nama pengguna'
-        required: 'true'
+        required: 'dedi'
       days:
         description: 'Durasi aktif (hari)'
-        default: '365'
-        required: 'true'
+        default: 365
+        required: '365'
 
 jobs:
   build:
