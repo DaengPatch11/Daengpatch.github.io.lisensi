@@ -1,21 +1,24 @@
 {
-  "version": 4, 
-  "files": [
-    {
-      "name": "transfer.cpk",
-      "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/db_update_v4.cpk",
-      "is_critical": true 
-    },
-    {
-      "name": "kit.cpk",
-      "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/new_faces.cpk",
-      "is_critical": false 
-    },
-    {
-      "name": "face.cpk",
-      "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/Update.cpkk",
-      "is_critical": true
-    }
-  ]
-
+    "version": 4,
+    "description": "Pembaruan Database, Wajah, dan Konten Umum (V4)",
+    "files": [
+        {
+            "name": "db_update_v4.cpk",
+            "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/db_update_v4.cpk",
+            "is_critical": true,
+            "pattern_to_delete": "db_update_v4.cpk"
+        },
+        {
+            "name": "new_faces.cpk",
+            "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/new_faces.cpk",
+            "is_critical": true,
+            "pattern_to_delete": "new_faces.cpk"
+        },
+        {
+            "name": "Update.cpk",
+            "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/Update.cpk",
+            "is_critical": true,
+            "pattern_to_delete": "Update.cpk"
+        }
+    ]
 }
