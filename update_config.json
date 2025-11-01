@@ -3,7 +3,7 @@
   "files": [
     {
       "name": "transfer.cpk",
-      "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/Update.cpk",
+      "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/db_update_v4.cpk",
       "is_critical": true 
     },
     {
@@ -13,8 +13,9 @@
     },
     {
       "name": "face.cpk",
-      "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/db_update_v4.cpk",
+      "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/Update.cpkk",
       "is_critical": true
     }
   ]
+
 }
