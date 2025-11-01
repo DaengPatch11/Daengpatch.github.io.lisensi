@@ -5,20 +5,17 @@
         {
             "name": "db_update_v4.cpk",
             "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/db_update_v4.cpk",
-            "is_critical": true,
-            "pattern_to_delete": "db_update_v4.cpk"
+            "is_critical": true
         },
         {
             "name": "new_faces.cpk",
             "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/new_faces.cpk",
-            "is_critical": true,
-            "pattern_to_delete": "new_faces.cpk"
+            "is_critical": true
         },
         {
             "name": "Update.cpk",
             "url": "https://raw.githubusercontent.com/DaengPatch11/Daengpatch.github.io.lisensi/main/cpk_v4/Update.cpk",
-            "is_critical": true,
-            "pattern_to_delete": "Update.cpk"
+            "is_critical": true
         }
     ]
 }
